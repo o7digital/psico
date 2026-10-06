@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRC4WQJ');</script>
+<!-- End Google Tag Manager -->
+	
+	<title>Psicoterapia del Valle</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function() {
+                $('#slider').nivoSlider();
+                randomStart: true;
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+
+            $("ul.subnav").parent().append("<span></span>"); //Only shows drop down trigger when js is enabled (Adds empty span tag after ul.subnav*)
+            
+            $("ul.topnav li a").hover(function() { //When trigger is clicked...
+                //Following events are applied to the subnav itself (moving subnav up and down)
+                $(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+                $(this).parent().hover(function() {
+                }, function(){  
+                    $(this).parent().find("ul.subnav").slideUp('slow'); //When the mouse hovers out of the subnav, move it back up
+                });
+
+                //Following events are applied to the trigger (Hover events for the trigger)
+                }).hover(function() { 
+                    $(this).addClass("subhover"); //On hover over, add class "subhover"
+                }, function(){  //On Hover Out
+                    $(this).removeClass("subhover"); //On hover out, remove class "subhover"
+            });
+
+        });
+        </script>
+</head>
+<body>
+	
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRC4WQJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	
+	<div class="header-bg">
+        <div class="header">
+            <h1><a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></h1> 
+            <div class="top-right">
+                <nav class="top-menu">
+                    <div class="navbar navbar-inverse navbar-static-top">
+                        <div class="container">
+                            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                                <div class="collapse navbar-collapse navHeaderCollapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="index.html">Inicio</a></li>
+                                        <li><a href="nosotros.html">Nosotros</a></li>
+                                        <li><a class="active" href="terapias.html">Terapias</a></li>
+                                        <li><a href="historia.html">Historia</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="contacto.html" class="last">Contacto</a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    <div class="cboth"></div> 
+    </div>
+    <div class="cboth"></div> 
+    <div class="contenido container">
+        <h2>Terapias</h2><br />
+        <h3>
+            ¿A QUIENES ESTA ORIENTADO ESTE SERVICIO ?  O ¿QUE  PROBLEMAS AYUDA A RESOLVER?<br />
+            SI SUFRES :<br /><br />
+        </h3>       
+        <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/ansiedad.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+              <h2>Ataques de ansiedad ó pánico</h2>
+              <p class="texto-justificado">Que es una respuesta fisiológica automática que se caracteriza por un incremento en la intensidad de las funciones del organismo y que se  manifiestan como: taquicardia, presión arterial alta, dificultad para respirar, náuseas, miedo irracional, insomnio, conductas obsesivas,  etc.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/estres.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+              <h2>Estrés</h2><br /><br />
+              <p class="texto-justificado">El estrés es una respuesta natural y necesaria  para la supervivencia, sin embargo las condiciones de la vida moderna provocan que el estrés sea excesivo, lo que puede desembocar en problemas graves de salud. La  psicoterapia te ayuda a controlar tus niveles de estrés para que éste trabaje en tu beneficio.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/depresion.jpg" alt="Generic placeholder image" style="width:200px; height: 200px;">
+              <h2>Depresión</h2><br /><br />
+              <p class="texto-justificado">Es un trastorno del estado de ánimo y su síntoma más común es un estado de abatimiento e infelicidad, pero también se puede presentar irritabilidad o disminución en el rendimiento laboral entre otros. En casos graves puede incluso alterar actividades como comer o dormir. Las causas pueden ser muy diversas pero en todos los casos requiere de  atención inmediata.</p>
+            </div><!-- /.col-lg-4 -->
+        </div><br /><br />
+        <div class="row">
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/codependencia.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+              <h2>Codependencia</h2><br /><br />
+              <p class="texto-justificado">La codependencia  es una condición en donde la persona focaliza su atención y energía personal   en las necesidades y comportamientos del otro. Renuncia a sus necesidades y  trata de ganar fuerza a través del control. La persona co dependiente busca sentirse necesitada en la fantasía de que así nunca será abandonada. Posee una autoestima muy baja y en la mayoría de los casos acepta relaciones de abuso.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/relacion_destructiva.jpg" alt="Generic placeholder image" style="width:200px; height: 200px;">
+              <h2>Relaciones <br />Destructivas</h2>
+              <p class="texto-justificado">El maltrato físico o emocional es el componente principal de las relaciones destructivas, en donde la persona maltratada no se reconoce como tal, o minimiza la situación. La persona inmersa en una relación de este tipo, justifica constantemente la conducta de su pareja al grado de culparse a sí  misma por las reacciones del otro.</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="img-circle" src="images/terapias/emfermedades_psicosomaticas.jpg" alt="Generic placeholder image" style="width: 200px; height: 200px;">
+              <h2>Enfermedades Psicosomáticas</h2>
+              <p class="texto-justificado">Son un grito de auxilio, ante la incapacidad del individuo para resolver dolores emocionales presentes en su vida. La forma en que se manifiesta suele ser muy variada, la  persona presenta  síntomas    aunque los estudios y doctores los señalen saludables. Las enfermedades son tan reales que a veces representan una incapacidad física grave sin explicación médica alguna. La falta de atención oportuna puede provocar una incapacidad importante.</p>
+            </div><!-- /.col-lg-4 -->
+      </div>
+      <br /><br />
+    </div>
+    <div class="cboth"></div>
+       <footer>
+        <div class="footer-bg">
+            <div class="row footer">
+                <div class="col-sm-3">
+                    <h3>¿QUÉ HAGO?</h3>
+                    <p>
+                        Aplico en el proceso terapéutico la Terapia Cognitiva, que está orientada  a ayudarte a entender  tu sistema personal de creencias, los temores que éstas generan en ti y  al mismo tiempo te ayudan a aprender nuevos patrones de conducta que te permitan un desempeño sin dolor,  más libre, más armónico  y más feliz.
+                    </p>
+                </div> 
+                <div class="col-sm-3">
+                    <h3>TERAPIAS</h3>
+                    <ul>
+                        <li><a href="terapias.html">Ataques de ansiedad ó pánico</a></li>
+                        <li><a href="terapias.html">Estrés</a></li>
+                        <li><a href="terapias.html">Depresión</a></li>
+                        <li><a href="terapias.html">Codependencia</a></li>
+                        <li><a href="terapias.html">Relaciones Destructivas</a></li>
+                    </ul>
+                </div>                <div class="col-sm-3">
+                    <h3>Newsletter</h3>
+                    <p> Suscribete a nuestra newsletter.</p>
+                    <p><input name="" type="text" class="text-f2" /> <input name="" type="button" value="Enviar" class="text-f2-btn" /> </p>
+                    <span><a href="#"><img src="images/fb-icon.png" alt="" /></a> <a href="#"><img src="images/google-icon.png" alt="" /></a> <a href="#"><img src="images/twitter.png" alt="" /></a> <a href="#"><img src="images/in-icon.png" alt="" /></a></span>
+                </div> 
+                                <div class="col-sm-3">
+                    <h3>Contacto</h3>
+                    <p class="fuente4x"><font color="#fe7c4d" size="3pt">Susana Hernández Acevedo <br />
+                        Psicóloga Clínica </font></p>  
+                    <p><i class="fa fa-map-marker fa-2x">&nbsp;&nbsp;</i>Enrique Rébsamen 1142-2 Col. Del valle Delegación Benito Juárez México D.F C.P.03100</p>
+                    <p> <i class="fa fa-phone fa-2x">&nbsp;&nbsp;</i>  01 (55) 5575 3714<br /><i class="fa fa-mobile fa-2x">&nbsp;&nbsp;&nbsp;</i>+52 044 (55) 5455 8210 </p>
+                    <p><i class="fa fa-envelope fa-2x">&nbsp;&nbsp;</i><font color="#fe7c4d">info@psicoterapia.com</font> </p>
+                </div> 
+            </div>
+            <div class="cboth"></div> 
+        </div> 
+        <div class="cboth"></div>
+        <div class="footer-1-bg">
+            <div class="footer-1">
+               	<span><a href="nosotros.html">Nosotros</a>   |   <a href="#">Aviso de privacidad</a>   |   <a href="#">Site Map</a>    |   <a href="contacto.html">Contacto</a></span>
+              	<p>© 2014 psicoterapia.com</p>
+                <div class="cboth"></div> 
+            </div>
+            <div class="cboth"></div> 
+        </div>                
+    </footer> 
+</body>
+</html>
